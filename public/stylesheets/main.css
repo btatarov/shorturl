@@ -1,0 +1,66 @@
+body {
+	background: #f8f8f8 url(../images/background.jpg) repeat-x;
+	color: #4a4a4a;
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+	width: 980px;
+	margin: 0px auto;
+}
+
+#main {
+	width: 980px;
+	height: 749px;
+	background: url(../images/main.jpg) no-repeat;
+}
+
+#url {
+	padding: 246px 0 0 97px;
+}
+
+#url input.text_field {
+	width: 689px;
+	height: 42px;
+	border: none;
+	background: url(../images/url.jpg) no-repeat;
+	font-size: 18px;
+	padding: 0 10px 0 10px;
+}
+
+#url input.submit {
+	width: 105px;
+	height: 44px;
+	background: url(../images/url_btn.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+#short {
+	padding: 65px 0 0 97px;	
+}
+
+#short input.text_field {
+	width: 190px;
+	height: 42px;
+	border: none;
+	background: url(../images/short.jpg) no-repeat;
+	font-size: 18px;
+	padding: 0 10px 0 10px;
+}
+
+#short input.submit {
+	width: 104px;
+	height: 46px;
+	background: url(../images/short_btn.jpg) no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+#short a {
+	color: #d9edff;
+	font-size: 28px;
+}

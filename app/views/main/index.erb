@@ -1,0 +1,13 @@
+		<div id="url">
+			<%= form_for :short_url, :method => :post, :url => 'generate', :html => { :id => 'url_form' }  do |f| %>
+			<input type="text" name="url" id="url_field" class="text_field" value="<%= flash[:real] %>" />
+			<input type="submit" name="submit" class="submit" value="" />
+			<% end %>
+		</div>
+		<% if !(flash[:url].nil?) %>
+		<div id="short">
+			<input type="text" name="short" id="short_field" class="text_field" value="<%= flash[:url] %>" />
+			<input type="button" name="button" class="submit" value="" />
+			<a href="<%= flash[:url] %>"><%= flash[:url] %></a>
+		</div>
+		<% end %>
